@@ -1,0 +1,14 @@
+
+.navbar-container {
+    a {
+        font-family: '__Inter_ccafe3', '__Inter_Fallback_ccafe3';
+        font-style: normal;
+        margin-right: 1rem;
+        &:first-child {
+            margin-left: 1rem;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
