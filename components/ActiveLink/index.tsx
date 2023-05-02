@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { CSSProperties } from "react";
 
 interface IActiveLinkProps {
   text: string;
   href: string;
 }
 
-const style = {
+const style: CSSProperties = {
   color: "#0070f3",
   textDecoration: "underline",
 };
